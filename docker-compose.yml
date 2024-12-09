@@ -11,4 +11,5 @@ services:
     environment:
         - GENERIC_TIMEZONE=America/Santiago
         - TZ=America/Santiago
+        - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
     restart: unless-stopped
