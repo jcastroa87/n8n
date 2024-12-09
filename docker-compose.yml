@@ -7,7 +7,7 @@ services:
     ports:
         - 5678:5678
     volumes:
-        - ./.n8n:/home/node/.n8n
+        - /mnt/portainer-compose-unpacker/stacks/n8n/n8n/.n8n:/home/node/.n8n
     image: docker.n8n.io/n8nio/n8n
     environment:
         - GENERIC_TIMEZONE=America/Santiago
