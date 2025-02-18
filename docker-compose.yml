@@ -11,4 +11,5 @@ services:
     environment:
         - GENERIC_TIMEZONE=America/Santiago
         - TZ=America/Santiago
+        - WEBHOOK_URL=https://n8n.myowngalaxy.xyz/
     restart: unless-stopped
